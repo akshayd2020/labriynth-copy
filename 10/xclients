@@ -1,0 +1,3 @@
+#! /bin/bash
+
+java -jar ./gs-maven-0.1.0_client.jar $1 $2

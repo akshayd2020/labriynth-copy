@@ -1,0 +1,87 @@
+cd ./Other; \
+mvn compile; \
+mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gs-maven 0.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gs-maven ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gs-maven ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.197s
+[INFO] Finished at: Fri Sep 30 11:18:58 EDT 2022
+[INFO] Final Memory: 10M/40M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gs-maven 0.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gs-maven ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gs-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ gs-maven ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ gs-maven ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ gs-maven ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ gs-maven ---
+[INFO] Building jar: /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/target/gs-maven-0.1.0.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ gs-maven ---
+[INFO] Including org.json:json:jar:20220320 in the shaded jar.
+[INFO] Including org.openjfx:javafx-base:jar:11 in the shaded jar.
+[INFO] Including org.openjfx:javafx-base:jar:linux:11 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.9.1 in the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] gs-maven-0.1.0.jar, gson-2.9.1.jar, javafx-base-11-linux.jar, javafx-base-11.jar, json-20220320.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/target/gs-maven-0.1.0.jar with /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/target/gs-maven-0.1.0-shaded.jar
+[INFO] Dependency-reduced POM written at: /course/cs4500f22/ta/github/jamielin-jessicasu77/E/Other/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.055s
+[INFO] Finished at: Fri Sep 30 11:19:01 EDT 2022
+[INFO] Final Memory: 10M/44M
+[INFO] ------------------------------------------------------------------------

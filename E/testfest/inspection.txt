@@ -1,0 +1,16 @@
+Pair: jamielin-jessicasu77
+Commit: de9cddfc98462ab76ea398f249d4e7166283c693
+Self-eval: https://github.khoury.northeastern.edu/CS4500-F22/jamielin-jessicasu77/blob/7d617d3efbe62f82101a0b00f3989ad4d4a10357/E/self-E.md
+Score: 30/30
+Grader: James Packard
+
+Self-eval:
+10/10: accurate self-eval
+> The command-line port argument was not handled in its own method.
+
+Programming:
+10/10: the tcp part was written in its own class
+10/10: reused functionality (copied from C)
+> Well-organized code, great job!
+
+Commit URL: https://github.khoury.northeastern.edu/CS4500-F22/jamielin-jessicasu77/tree/de9cddfc98462ab76ea398f249d4e7166283c693

@@ -1,0 +1,4 @@
+10 pts: Executable that passed 1 out of 3 tests
+15 pts: 2 valid tests
+10 pts bonus (maximum 10)
+Total: 35 out of 45 pt

@@ -1,0 +1,7 @@
+Pair: jamielin-jessicasu77
+Commit: b648f9b5a586caed235ed3f9cc219bdf8a67490b
+Self-eval: 
+Score: 40/40
+Grader: Eshwari Bhide
+
+Commit URL: https://github.khoury.northeastern.edu/CS4500-F22/jamielin-jessicasu77/tree/b648f9b5a586caed235ed3f9cc219bdf8a67490b

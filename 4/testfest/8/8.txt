@@ -1,0 +1,6 @@
+(testing /course/cs4500f22/ta/github/jamielin-jessicasu77/4/xstate)
+(testing /course/cs4500f22/ta/github/4/8/Tests/4-in.json /course/cs4500f22/ta/github/4/8/Tests/4-out.json)
+Error: Unable to access jarfile ../Maze/target/gs-maven-0.1.0.jar
+((/course/cs4500f22/ta/github/4/8/Tests/4-in.json /course/cs4500f22/ta/github/4/8/Tests/4-out.json))
+((passed 1) (total 1) (partial-score 1))
+

@@ -1,0 +1,144 @@
+(testing /course/cs4500f22/ta/github/jamielin-jessicasu77/C/xjson)
+(testing /course/cs4500f22/ta/github/C/64/Tests/1-in.json /course/cs4500f22/ta/github/C/64/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((horizontal . "RIGHT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "RIGHT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP")))
+(*** expected)
+'(("┌" "┐" "└" "┘"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain fast with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain fast with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((plain fast with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((plain slow with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\""))
+  ((plain slow with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\n\""))
+  ((plain slow with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\""))
+  ((plain slow with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\n\""))
+  ((pretty fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty fast with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty fast with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty fast with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty slow with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty slow with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty slow with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty slow with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\"")))
+
+
+(testing /course/cs4500f22/ta/github/C/64/Tests/2-in.json /course/cs4500f22/ta/github/C/64/Tests/2-out.json)
+(testing /course/cs4500f22/ta/github/C/64/Tests/3-in.json /course/cs4500f22/ta/github/C/64/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((horizontal . "RIGHT") (vertical . "DOWN"))
+  #hasheq((horizontal . "RIGHT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "RIGHT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "RIGHT") (vertical . "UP"))
+  #hasheq((horizontal . "RIGHT") (vertical . "UP"))
+  #hasheq((horizontal . "RIGHT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "LEFT") (vertical . "DOWN"))
+  #hasheq((horizontal . "LEFT") (vertical . "UP"))
+  #hasheq((horizontal . "RIGHT") (vertical . "DOWN"))
+  #hasheq((horizontal . "RIGHT") (vertical . "UP")))
+(*** expected)
+'(("┌"
+   "└"
+   "┐"
+   "┘"
+   "┐"
+   "┘"
+   "┐"
+   "┘"
+   "┐"
+   "┐"
+   "┘"
+   "┘"
+   "┌"
+   "┘"
+   "┐"
+   "┐"
+   "└"
+   "└"
+   "┌"
+   "┐"
+   "┘"
+   "┐"
+   "┘"
+   "┐"
+   "┘"
+   "┌"
+   "└"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain fast with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain fast with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((plain fast with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((plain slow with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain slow with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((plain slow with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((plain slow with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty fast with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty fast with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty fast with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty slow with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty slow with-newline escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 1 line 2]\\n\""))
+  ((pretty slow with-space plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\""))
+  ((pretty slow with-space escaped-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"There was an error\\norg.json.JSONException: A JSONObject text must begin with '{' at 2 [character 3 line 1]\\n\"")))
+
+
+((/course/cs4500f22/ta/github/C/64/Tests/2-in.json /course/cs4500f22/ta/github/C/64/Tests/2-out.json))
+((passed 1) (total 3) (partial-score 1))
+
